@@ -7,6 +7,13 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<description>Modulo padre</description>
+	
+	<modules>
+		<module>../jasmine-erp</module>
+		<module>../parent-data-acces</module>
+		<module>../parent-service</module>
+		<module>../application-data-access</module>
+	</modules>
 
 	<properties>
 		<project.build.sourceEncoding>ISO-8859-1</project.build.sourceEncoding>
